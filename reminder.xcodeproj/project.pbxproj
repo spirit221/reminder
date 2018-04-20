@@ -7,33 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0120939120041E39008EAC33 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0120939020041E39008EAC33 /* Push.swift */; };
+		01209393200421E1008EAC33 /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01209392200421E1008EAC33 /* SaveData.swift */; };
+		012093AF2004E396008EAC33 /* VkWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012093AD2004E396008EAC33 /* VkWall.swift */; };
+		012093B02004E396008EAC33 /* VkWall.xib in Resources */ = {isa = PBXBuildFile; fileRef = 012093AE2004E396008EAC33 /* VkWall.xib */; };
+		012093B22004E428008EAC33 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012093B12004E428008EAC33 /* Session.swift */; };
+		012093B42004E433008EAC33 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012093B32004E432008EAC33 /* Constants.swift */; };
 		014B223520024B4C00654AA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B223420024B4C00654AA1 /* AppDelegate.swift */; };
 		014B223720024B4C00654AA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B223620024B4C00654AA1 /* ViewController.swift */; };
 		014B223A20024B4C00654AA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014B223820024B4C00654AA1 /* Main.storyboard */; };
 		014B223C20024B4C00654AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014B223B20024B4C00654AA1 /* Assets.xcassets */; };
 		014B223F20024B4C00654AA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014B223D20024B4C00654AA1 /* LaunchScreen.storyboard */; };
-		014B224A20024B4C00654AA1 /* reminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B224920024B4C00654AA1 /* reminderTests.swift */; };
-		014B225520024B4C00654AA1 /* reminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B225420024B4C00654AA1 /* reminderUITests.swift */; };
+		014B226C20024F8400654AA1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B226A20024F8400654AA1 /* TableViewCell.swift */; };
+		014B226D20024F8400654AA1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014B226B20024F8400654AA1 /* TableViewCell.xib */; };
+		014B226F2002567A00654AA1 /* RemindStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B226E2002567A00654AA1 /* RemindStruct.swift */; };
+		014B2273200260BF00654AA1 /* DetailReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B2271200260BF00654AA1 /* DetailReminder.swift */; };
+		014B2274200260BF00654AA1 /* DetailReminder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014B2272200260BF00654AA1 /* DetailReminder.xib */; };
+		014B227820026E0400654AA1 /* AddReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014B227620026E0400654AA1 /* AddReminder.swift */; };
+		014B227920026E0400654AA1 /* AddReminder.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014B227720026E0400654AA1 /* AddReminder.xib */; };
+		017C6EF9200905590082CE40 /* PostToVk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C6EF8200905590082CE40 /* PostToVk.swift */; };
+		017C6EFB200911C10082CE40 /* FadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C6EFA200911C10082CE40 /* FadeAnimation.swift */; };
+		0193623B20081ECD00A0E875 /* WebCacheCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0193623A20081ECD00A0E875 /* WebCacheCleaner.swift */; };
+		01B009922005035000CB5006 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B009902005035000CB5006 /* PhotoCollection.swift */; };
+		01B009932005035000CB5006 /* PhotoCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B009912005035000CB5006 /* PhotoCollection.xib */; };
+		01B009972005051000CB5006 /* PhotoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B009952005051000CB5006 /* PhotoCollectionCell.swift */; };
+		01B009982005051000CB5006 /* PhotoCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B009962005051000CB5006 /* PhotoCollectionCell.xib */; };
+		01CF345B20057BA60019C7D4 /* StringEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CF345A20057BA60019C7D4 /* StringEditor.swift */; };
+		01D60EF720052936004D497A /* JustPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D60EF520052936004D497A /* JustPhoto.swift */; };
+		01D60EF820052936004D497A /* JustPhoto.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D60EF620052936004D497A /* JustPhoto.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		014B224620024B4C00654AA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 014B222920024B4C00654AA1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 014B223020024B4C00654AA1;
-			remoteInfo = reminder;
-		};
-		014B225120024B4C00654AA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 014B222920024B4C00654AA1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 014B223020024B4C00654AA1;
-			remoteInfo = reminder;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0120939020041E39008EAC33 /* Push.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Push.swift; sourceTree = "<group>"; };
+		01209392200421E1008EAC33 /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
+		012093AD2004E396008EAC33 /* VkWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkWall.swift; sourceTree = "<group>"; };
+		012093AE2004E396008EAC33 /* VkWall.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VkWall.xib; sourceTree = "<group>"; };
+		012093B12004E428008EAC33 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		012093B32004E432008EAC33 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		014B223120024B4C00654AA1 /* reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		014B223420024B4C00654AA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		014B223620024B4C00654AA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,12 +51,23 @@
 		014B223B20024B4C00654AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014B223E20024B4C00654AA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		014B224020024B4C00654AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		014B224520024B4C00654AA1 /* reminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		014B224920024B4C00654AA1 /* reminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderTests.swift; sourceTree = "<group>"; };
-		014B224B20024B4C00654AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		014B225020024B4C00654AA1 /* reminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		014B225420024B4C00654AA1 /* reminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderUITests.swift; sourceTree = "<group>"; };
-		014B225620024B4D00654AA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		014B226A20024F8400654AA1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		014B226B20024F8400654AA1 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		014B226E2002567A00654AA1 /* RemindStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindStruct.swift; sourceTree = "<group>"; };
+		014B2271200260BF00654AA1 /* DetailReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailReminder.swift; sourceTree = "<group>"; };
+		014B2272200260BF00654AA1 /* DetailReminder.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailReminder.xib; sourceTree = "<group>"; };
+		014B227620026E0400654AA1 /* AddReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminder.swift; sourceTree = "<group>"; };
+		014B227720026E0400654AA1 /* AddReminder.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddReminder.xib; sourceTree = "<group>"; };
+		017C6EF8200905590082CE40 /* PostToVk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostToVk.swift; sourceTree = "<group>"; };
+		017C6EFA200911C10082CE40 /* FadeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeAnimation.swift; sourceTree = "<group>"; };
+		0193623A20081ECD00A0E875 /* WebCacheCleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCacheCleaner.swift; sourceTree = "<group>"; };
+		01B009902005035000CB5006 /* PhotoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
+		01B009912005035000CB5006 /* PhotoCollection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollection.xib; sourceTree = "<group>"; };
+		01B009952005051000CB5006 /* PhotoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionCell.swift; sourceTree = "<group>"; };
+		01B009962005051000CB5006 /* PhotoCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionCell.xib; sourceTree = "<group>"; };
+		01CF345A20057BA60019C7D4 /* StringEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEditor.swift; sourceTree = "<group>"; };
+		01D60EF520052936004D497A /* JustPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustPhoto.swift; sourceTree = "<group>"; };
+		01D60EF620052936004D497A /* JustPhoto.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JustPhoto.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,29 +78,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		014B224220024B4C00654AA1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		014B224D20024B4C00654AA1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012093AC2004E387008EAC33 /* VkWall */ = {
+			isa = PBXGroup;
+			children = (
+				012093AD2004E396008EAC33 /* VkWall.swift */,
+				012093AE2004E396008EAC33 /* VkWall.xib */,
+				012093B12004E428008EAC33 /* Session.swift */,
+				012093B32004E432008EAC33 /* Constants.swift */,
+				017C6EF8200905590082CE40 /* PostToVk.swift */,
+			);
+			path = VkWall;
+			sourceTree = "<group>";
+		};
 		014B222820024B4C00654AA1 = {
 			isa = PBXGroup;
 			children = (
 				014B223320024B4C00654AA1 /* reminder */,
-				014B224820024B4C00654AA1 /* reminderTests */,
-				014B225320024B4C00654AA1 /* reminderUITests */,
 				014B223220024B4C00654AA1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				014B223120024B4C00654AA1 /* reminder.app */,
-				014B224520024B4C00654AA1 /* reminderTests.xctest */,
-				014B225020024B4C00654AA1 /* reminderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,32 +112,89 @@
 		014B223320024B4C00654AA1 /* reminder */ = {
 			isa = PBXGroup;
 			children = (
-				014B223420024B4C00654AA1 /* AppDelegate.swift */,
+				01D60EF4200528FF004D497A /* JustPhoto */,
+				01B00994200504EF00CB5006 /* PhotoCollectionCell */,
+				01B0098F2005033500CB5006 /* PhotoCollection */,
+				012093AC2004E387008EAC33 /* VkWall */,
+				014B226420024D3200654AA1 /* support */,
+				014B226920024F7100654AA1 /* Cell */,
+				014B22702002606900654AA1 /* DetailReminder */,
+				014B227520026DE400654AA1 /* addReminder */,
 				014B223620024B4C00654AA1 /* ViewController.swift */,
+				014B226E2002567A00654AA1 /* RemindStruct.swift */,
 				014B223820024B4C00654AA1 /* Main.storyboard */,
-				014B223B20024B4C00654AA1 /* Assets.xcassets */,
-				014B223D20024B4C00654AA1 /* LaunchScreen.storyboard */,
-				014B224020024B4C00654AA1 /* Info.plist */,
+				0120939020041E39008EAC33 /* Push.swift */,
+				01209392200421E1008EAC33 /* SaveData.swift */,
+				01CF345A20057BA60019C7D4 /* StringEditor.swift */,
+				0193623A20081ECD00A0E875 /* WebCacheCleaner.swift */,
+				017C6EFA200911C10082CE40 /* FadeAnimation.swift */,
 			);
 			path = reminder;
 			sourceTree = "<group>";
 		};
-		014B224820024B4C00654AA1 /* reminderTests */ = {
+		014B226420024D3200654AA1 /* support */ = {
 			isa = PBXGroup;
 			children = (
-				014B224920024B4C00654AA1 /* reminderTests.swift */,
-				014B224B20024B4C00654AA1 /* Info.plist */,
+				014B223420024B4C00654AA1 /* AppDelegate.swift */,
+				014B223B20024B4C00654AA1 /* Assets.xcassets */,
+				014B223D20024B4C00654AA1 /* LaunchScreen.storyboard */,
+				014B224020024B4C00654AA1 /* Info.plist */,
 			);
-			path = reminderTests;
+			path = support;
 			sourceTree = "<group>";
 		};
-		014B225320024B4C00654AA1 /* reminderUITests */ = {
+		014B226920024F7100654AA1 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				014B225420024B4C00654AA1 /* reminderUITests.swift */,
-				014B225620024B4D00654AA1 /* Info.plist */,
+				014B226A20024F8400654AA1 /* TableViewCell.swift */,
+				014B226B20024F8400654AA1 /* TableViewCell.xib */,
 			);
-			path = reminderUITests;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		014B22702002606900654AA1 /* DetailReminder */ = {
+			isa = PBXGroup;
+			children = (
+				014B2271200260BF00654AA1 /* DetailReminder.swift */,
+				014B2272200260BF00654AA1 /* DetailReminder.xib */,
+			);
+			path = DetailReminder;
+			sourceTree = "<group>";
+		};
+		014B227520026DE400654AA1 /* addReminder */ = {
+			isa = PBXGroup;
+			children = (
+				014B227620026E0400654AA1 /* AddReminder.swift */,
+				014B227720026E0400654AA1 /* AddReminder.xib */,
+			);
+			path = addReminder;
+			sourceTree = "<group>";
+		};
+		01B0098F2005033500CB5006 /* PhotoCollection */ = {
+			isa = PBXGroup;
+			children = (
+				01B009902005035000CB5006 /* PhotoCollection.swift */,
+				01B009912005035000CB5006 /* PhotoCollection.xib */,
+			);
+			path = PhotoCollection;
+			sourceTree = "<group>";
+		};
+		01B00994200504EF00CB5006 /* PhotoCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				01B009952005051000CB5006 /* PhotoCollectionCell.swift */,
+				01B009962005051000CB5006 /* PhotoCollectionCell.xib */,
+			);
+			path = PhotoCollectionCell;
+			sourceTree = "<group>";
+		};
+		01D60EF4200528FF004D497A /* JustPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				01D60EF520052936004D497A /* JustPhoto.swift */,
+				01D60EF620052936004D497A /* JustPhoto.xib */,
+			);
+			path = JustPhoto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +207,7 @@
 				014B222D20024B4C00654AA1 /* Sources */,
 				014B222E20024B4C00654AA1 /* Frameworks */,
 				014B222F20024B4C00654AA1 /* Resources */,
+				0193623E2008BF9800A0E875 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -144,42 +217,6 @@
 			productName = reminder;
 			productReference = 014B223120024B4C00654AA1 /* reminder.app */;
 			productType = "com.apple.product-type.application";
-		};
-		014B224420024B4C00654AA1 /* reminderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 014B225C20024B4D00654AA1 /* Build configuration list for PBXNativeTarget "reminderTests" */;
-			buildPhases = (
-				014B224120024B4C00654AA1 /* Sources */,
-				014B224220024B4C00654AA1 /* Frameworks */,
-				014B224320024B4C00654AA1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				014B224720024B4C00654AA1 /* PBXTargetDependency */,
-			);
-			name = reminderTests;
-			productName = reminderTests;
-			productReference = 014B224520024B4C00654AA1 /* reminderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		014B224F20024B4C00654AA1 /* reminderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 014B225F20024B4D00654AA1 /* Build configuration list for PBXNativeTarget "reminderUITests" */;
-			buildPhases = (
-				014B224C20024B4C00654AA1 /* Sources */,
-				014B224D20024B4C00654AA1 /* Frameworks */,
-				014B224E20024B4C00654AA1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				014B225220024B4C00654AA1 /* PBXTargetDependency */,
-			);
-			name = reminderUITests;
-			productName = reminderUITests;
-			productReference = 014B225020024B4C00654AA1 /* reminderUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -194,16 +231,6 @@
 					014B223020024B4C00654AA1 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-					};
-					014B224420024B4C00654AA1 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 014B223020024B4C00654AA1;
-					};
-					014B224F20024B4C00654AA1 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 014B223020024B4C00654AA1;
 					};
 				};
 			};
@@ -221,8 +248,6 @@
 			projectRoot = "";
 			targets = (
 				014B223020024B4C00654AA1 /* reminder */,
-				014B224420024B4C00654AA1 /* reminderTests */,
-				014B224F20024B4C00654AA1 /* reminderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,68 +257,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01D60EF820052936004D497A /* JustPhoto.xib in Resources */,
+				012093B02004E396008EAC33 /* VkWall.xib in Resources */,
 				014B223F20024B4C00654AA1 /* LaunchScreen.storyboard in Resources */,
+				01B009932005035000CB5006 /* PhotoCollection.xib in Resources */,
+				01B009982005051000CB5006 /* PhotoCollectionCell.xib in Resources */,
+				014B226D20024F8400654AA1 /* TableViewCell.xib in Resources */,
 				014B223C20024B4C00654AA1 /* Assets.xcassets in Resources */,
+				014B2274200260BF00654AA1 /* DetailReminder.xib in Resources */,
 				014B223A20024B4C00654AA1 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		014B224320024B4C00654AA1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		014B224E20024B4C00654AA1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				014B227920026E0400654AA1 /* AddReminder.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0193623E2008BF9800A0E875 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		014B222D20024B4C00654AA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012093B22004E428008EAC33 /* Session.swift in Sources */,
+				012093B42004E433008EAC33 /* Constants.swift in Sources */,
+				014B226C20024F8400654AA1 /* TableViewCell.swift in Sources */,
+				014B226F2002567A00654AA1 /* RemindStruct.swift in Sources */,
+				01209393200421E1008EAC33 /* SaveData.swift in Sources */,
+				01CF345B20057BA60019C7D4 /* StringEditor.swift in Sources */,
+				01B009972005051000CB5006 /* PhotoCollectionCell.swift in Sources */,
 				014B223720024B4C00654AA1 /* ViewController.swift in Sources */,
+				014B2273200260BF00654AA1 /* DetailReminder.swift in Sources */,
+				0120939120041E39008EAC33 /* Push.swift in Sources */,
+				017C6EFB200911C10082CE40 /* FadeAnimation.swift in Sources */,
+				012093AF2004E396008EAC33 /* VkWall.swift in Sources */,
+				01D60EF720052936004D497A /* JustPhoto.swift in Sources */,
+				017C6EF9200905590082CE40 /* PostToVk.swift in Sources */,
+				0193623B20081ECD00A0E875 /* WebCacheCleaner.swift in Sources */,
 				014B223520024B4C00654AA1 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		014B224120024B4C00654AA1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				014B224A20024B4C00654AA1 /* reminderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		014B224C20024B4C00654AA1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				014B225520024B4C00654AA1 /* reminderUITests.swift in Sources */,
+				01B009922005035000CB5006 /* PhotoCollection.swift in Sources */,
+				014B227820026E0400654AA1 /* AddReminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		014B224720024B4C00654AA1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 014B223020024B4C00654AA1 /* reminder */;
-			targetProxy = 014B224620024B4C00654AA1 /* PBXContainerItemProxy */;
-		};
-		014B225220024B4C00654AA1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 014B223020024B4C00654AA1 /* reminder */;
-			targetProxy = 014B225120024B4C00654AA1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		014B223820024B4C00654AA1 /* Main.storyboard */ = {
@@ -427,9 +448,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = reminder/Info.plist;
+				DEVELOPMENT_TEAM = JBF3U4Y3Z7;
+				INFOPLIST_FILE = "$(SRCROOT)/reminder/support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ep.reminder;
+				PRODUCT_BUNDLE_IDENTIFIER = ep.reminder.teamsesh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,74 +463,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = reminder/Info.plist;
+				DEVELOPMENT_TEAM = JBF3U4Y3Z7;
+				INFOPLIST_FILE = "$(SRCROOT)/reminder/support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ep.reminder;
+				PRODUCT_BUNDLE_IDENTIFIER = ep.reminder.teamsesh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		014B225D20024B4D00654AA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = reminderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ep.reminderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reminder.app/reminder";
-			};
-			name = Debug;
-		};
-		014B225E20024B4D00654AA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = reminderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ep.reminderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reminder.app/reminder";
-			};
-			name = Release;
-		};
-		014B226020024B4D00654AA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = reminderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ep.reminderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = reminder;
-			};
-			name = Debug;
-		};
-		014B226120024B4D00654AA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = reminderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ep.reminderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = reminder;
 			};
 			name = Release;
 		};
@@ -529,24 +490,6 @@
 			buildConfigurations = (
 				014B225A20024B4D00654AA1 /* Debug */,
 				014B225B20024B4D00654AA1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		014B225C20024B4D00654AA1 /* Build configuration list for PBXNativeTarget "reminderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				014B225D20024B4D00654AA1 /* Debug */,
-				014B225E20024B4D00654AA1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		014B225F20024B4D00654AA1 /* Build configuration list for PBXNativeTarget "reminderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				014B226020024B4D00654AA1 /* Debug */,
-				014B226120024B4D00654AA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
